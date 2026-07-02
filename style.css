@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root{
@@ -84,28 +85,27 @@ body{
     width: 50%;
     margin: 0 auto;
 }
-
-@media screen and (min-width: 768px) {
-    .parametro-coluna__senha{
-        flex-direction: row;
-    }
-}
 .parametro-senha-botoes{
     display: flex;
     justify-content: center;
-}
-.parametro-senha__texto{
-    padding: 24px;
-    border-top: 2px solid var(--borda);
-    border-bottom: 2px solid var(--borda);
-    margin: 0;
-    font-size: 24px;
 }
 .parametro-senha__botao{
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
     padding: 24px;
+    font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}
+.parametro-senha__texto{
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
     font-size: 24px;
 }
 .parametro-senha__botao{
@@ -150,4 +150,3 @@ label{
     background-color: #00FF85;
     width: 100%;
 }
-<div class="forca fraca"></div>
